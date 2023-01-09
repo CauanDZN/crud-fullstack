@@ -18,10 +18,6 @@ Uma aplicação completa, com ReactJS no frontend, NodeJS no backend (API) e o M
     });
 ```
 
-| Parâmetro   | Tipo       | Descrição                           |
-| :---------- | :--------- | :---------------------------------- |
-| `api_key` | `string` | **Obrigatório**. A chave da sua API |
-
 #### Insere um item
 
 ```js
@@ -40,10 +36,6 @@ Uma aplicação completa, com ReactJS no frontend, NodeJS no backend (API) e o M
     return res.status(200).json("Usuário criado com sucesso.");
   });
 ```
-
-| Parâmetro   | Tipo       | Descrição                                   |
-| :---------- | :--------- | :------------------------------------------ |
-| `id`      | `string` | **Obrigatório**. O ID do item que você quer |
 
 #### Atualiza um item
 
